@@ -40,7 +40,7 @@ logto=/home/mstobb/simple_KFHL_dash_app/wsgi.log
 ```
 Be sure to replace the username with YOUR username.  
 
-Test out with: `uwsgi --socket 0.0.0.0:8080 --protocol=http -w wsgi`.  There should not be an errors.
+Test out with: `uwsgi --socket 0.0.0.0:8080 --protocol=http -w wsgi`.  There should not be any errors.
 
 11. Make `dash_app_startup.service` file in /etc/systemd/system/ with the following contents:
 ```
