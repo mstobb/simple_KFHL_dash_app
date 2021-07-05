@@ -56,7 +56,7 @@ ExecStart=uwsgi --force-cwd /home/mstobb/simple_KFHL_dash_app --ini startup.ini
 [Install]
 WantedBy = multi-user.target
 ```
-Again, be sure to replace the username with YOUR username.
+Be sure to replace the username with YOUR username.
 
 12. Start the process: 
 
