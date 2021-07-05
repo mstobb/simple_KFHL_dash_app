@@ -41,7 +41,7 @@ logto=/var/log/wsgi.log
 
 Test out with: `uwsgi --socket 0.0.0.0:8080 --protocol=http -w wsgi`.  There should not be any errors.
 
-11. Make `dash_app_startup.service` file in /etc/systemd/system/ with the following contents:
+11. Make `dash_app_startup.service` file in `/etc/systemd/system/` with the following contents:
 ```
 [Unit]
 Description=uWSGI instance to serve startup
