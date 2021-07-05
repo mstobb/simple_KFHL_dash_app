@@ -38,7 +38,6 @@ vacuum = true
 die-on-term = true
 logto=/var/log/wsgi.log
 ```
-Be sure to replace the username with YOUR username.  
 
 Test out with: `uwsgi --socket 0.0.0.0:8080 --protocol=http -w wsgi`.  There should not be any errors.
 
