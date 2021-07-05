@@ -36,7 +36,7 @@ socket = index.sock
 chmod-socket = 664
 vacuum = true
 die-on-term = true
-logto=/home/mstobb/simple_KFHL_dash_app/wsgi.log
+logto=/var/log/wsgi.log
 ```
 Be sure to replace the username with YOUR username.  
 
