@@ -7,7 +7,7 @@ Follow these steps to get the app up and running with a clean install of Ubuntu 
 1. Create a fresh server.  If using Google Cloud, I recommend something small like: N1 type, f1 micro instance
 2. Install the following using `apt`: 
 ```
-sudo apt insatll python3-pip build-essential nginx make gfortran
+sudo apt install python3-pip build-essential nginx make gfortran
 ```
 
 3. Git clone this repository onto the server
