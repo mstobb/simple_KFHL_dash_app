@@ -88,9 +88,10 @@ sudo rm /etc/nginx/sites-enabled/default
 ```
 
 16. Activate the proxy:
-  1. To start: `sudo service nginx restart`
-  2. To check: `sudo service nginx status`
 
+    1. To start: `sudo service nginx restart`
+
+    2. To check: `sudo service nginx status`
 
 17. Visit IP address - your app should be visible!
 
