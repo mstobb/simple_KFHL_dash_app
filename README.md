@@ -11,7 +11,7 @@ sudo apt install python3-pip build-essential nginx make gfortran
 ```
 
 3. Git clone this repository onto the server
-4. Upload KFHL model files (from BitBucket if available)
+4. Upload KFHL model files (from BitBucket if available) into the app directory
 5. Delete the executable `KFHLT_forward` in the model file, and the `KFHLT_param` in the param_backup file
 6. Run the makefile for each folder, be sure to then run the new param function
 7. Install the following with `pip`: 
