@@ -82,15 +82,15 @@ server {
 sudo ln -s /etc/nginx/sites-available/dash_app /etc/nginx/sites-enabled
 ```
 
-14. Remove default proxy setting in `/etc/nginx/sites-enabled`:
+15. Remove default proxy setting in `/etc/nginx/sites-enabled`:
 ```
 sudo rm /etc/nginx/sites-enabled/default
 ```
 
-15. Activate the proxy:
+16. Activate the proxy:
   1. To start: `sudo service nginx restart`
   2. To check: `sudo service nginx status`
 
 
-16. Visit IP address - your app should be visible!
+17. Visit IP address - your app should be visible!
 
