@@ -75,6 +75,7 @@ server {
     }
 }
 ```
+Again, be sure to change the username to YOUR username.
 
 14. Copy the reverse proxy file to `sites-enabled`: 
 ```
